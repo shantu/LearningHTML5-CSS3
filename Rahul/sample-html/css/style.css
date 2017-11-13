@@ -129,3 +129,12 @@
   padding-left: 30px;
   padding-right: 30px;
 }
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+body {
+  color: #888;
+  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
