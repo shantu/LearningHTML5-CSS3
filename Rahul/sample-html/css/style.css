@@ -44,25 +44,31 @@
 
 .logo {
   border-top: 4px solid #648880;
-  padding: 20px 0 22px 0;
   float: left;
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: .5px;
+  line-height: 44px;
+  padding: 40px 0 22px 0;
+  text-transform: uppercase;
 }
+
 
 .container {
   margin: 0 auto;
-  padding-left: 30px;
+  padding-left: 0px;
   padding-right: 30px;
   width: 960px;
 }
 
-.grid h4 {
+.grid h3 {
   padding-bottom: 20px;
-}
+ }
 
 .btn {
   border-radius: 5px;
   display: inline-block;
-  margin: 0;
+  margin: 20px 0 40px 0;
 }
 
 .btn-alt {
@@ -78,7 +84,17 @@
 */
 
 .hero {
-  padding: 50px 80px 30px 80px;
+  line-height: 44px;
+  padding: 22px 80px 66px 80px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+}
+.hero p {
+  font-size: 24px;
+  font-weight: 100;
 }
 
 
@@ -87,15 +103,15 @@
   Primary footer
   ========================================
 */
-
-.primary-footer small {
-  float: left;
-  font-size: unset;
-}
-
 .primary-footer {
+  color: #648880;
+  font-size: 14px;
   padding-bottom: 44px;
   padding-top: 44px;
+}
+.primary-footer small {
+  float: left;
+  font-weight: 400;
 }
 
 .col-1-3 {
@@ -126,7 +142,7 @@
 }
 
 .container {
-  padding-left: 30px;
+  padding-left: px;
   padding-right: 30px;
 }
 /*
@@ -136,5 +152,74 @@
 */
 body {
   color: #888;
-  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4 {
+  color: #648880;
+}
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 21px;
+  font-weight: 400;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  color: #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+strong {
+  font-weight: 400;
+}
+cite, em {
+  font-style: italic;
+}
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a {
+  color: #648880;
+  text-decoration: none;
+}
+a:hover {
+  color: #a9b2b9;
+}
+p a {
+  border-bottom: 1px solid #dfe2e5;
+}
+
+.tagline {
+  margin: 66px 0 22px 0;
+  text-align: right;
+}
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+.teaser a:hover h3 {
+  color: #a9b2b9;
+}
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.nav {
+  text-align: right;
 }
