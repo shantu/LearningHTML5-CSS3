@@ -1,13 +1,13 @@
 p {
   background : orange;
-  font-size: 30px;
+  font-size: 16px;
 }
 p {
    background : ;
    }
 
 #chicago {
-background : green;
+background : white;
 }
 /*
   ========================================
@@ -57,9 +57,38 @@ background : green;
   ========================================
 */
 
-h1, h3, h4, h5, p {
-  margin-bottom: 22px;
+h1, h3, h4, h5,
+h1 {
+  font-size: 36px;
+  line-height: 44px;
 }
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 21px;
+}
+h4 {
+  font-size: 18px;
+}
+
+ p {
+  margin-bottom: 22px;
+   color: #648880;
+}
+h5 {
+  color: #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
+}
+strong {
+  font-weight: 400;
+}
+cite, em {
+  font-style: italic;
+}
+
 /*
   ========================================
   Buttons
@@ -113,8 +142,11 @@ h1, h3, h4, h5, p {
 }
 .logo {
   border-top: 4px solid #648880;
-  padding: 40px 0 22px 0;
   float: left;
+  font-size: 48px;
+  line-height: 44px;
+  padding: 40px 0 22px 0;
+  
 }
 /*
   ========================================
@@ -124,9 +156,40 @@ h1, h3, h4, h5, p {
 
 .primary-footer small {
   float: left;
+  font-weight: 400;
 }
 .primary-footer {
+ color: #648880;
+  font-size: 14px;
   padding-bottom: 44px;
   padding-top: 44px;
 }
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+body {
+  color: #888;
+  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a:hover {
+  color: #a9b2b9;
+}
+a {
+  color: #648880;
+}
+.tagline {
+  margin: 66px 0 22px 0;
+}
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
+}
