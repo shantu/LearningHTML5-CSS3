@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <p><a href="https://www.google.com" class="text-primary">GOOGLE</a></p>
+<p><a href="https://www.messenger.com/" class="text-secondary">MESSENGER</a></p>
+<p><a href="https://www.facebook.com/" class="text-success">FACEBOOK</a></p>
+<p><a href="https://mail.google.com/" class="text-danger">GMAIL</a></p>
+<p><a href="https://www.youtube.com/" class="text-warning">YOUTUBE</a></p>
+<hr>
+
+<p><a href="https://www.google.com" class="text-primary bg-danger">GOOGLE</a></p>
+<p><a href="https://www.messenger.com/" class="text-secondary bg-warning">MESSENGER</a></p>
+<p><a href="https://www.facebook.com/" class="text-success bg-primary">FACEBOOK</a></p>
+<p><a href="https://mail.google.com/" class="text-danger bg-success">GMAIL</a></p>
+<p><a href="https://www.youtube.com/" class="text-warning bg-muted">YOUTUBE</a></p>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  </body>
+</html>
