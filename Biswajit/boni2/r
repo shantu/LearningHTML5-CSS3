@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+  <div class="d-flex p-2">I'm a flexbox container!</div>
+  <hr>
+  <div class="d-inline-flex p-2">I'm an inline flexbox container!</div>
+  <hr>
+  <div class="d-flex flex-row">
+  <div class="p-2">Flex item 1</div>
+  <div class="p-2">Flex item 2</div>
+  <div class="p-2">Flex item 3</div>
+</div>
+<div class="d-flex flex-row-reverse">
+  <div class="p-2">Flex item 1</div>
+  <div class="p-2">Flex item 2</div>
+  <div class="p-2">Flex item 3</div>
+</div>
+<hr>
+<div class="d-flex flex-column">
+  <div class="p-2">Flex item 1</div>
+  <div class="p-2">Flex item 2</div>
+  <div class="p-2">Flex item 3</div>
+</div>
+<div class="d-flex flex-column-reverse">
+  <div class="p-2">Flex item 1</div>
+  <div class="p-2">Flex item 2</div>
+  <div class="p-2">Flex item 3</div>
+</div>
+<hr>
+<div class="d-flex justify-content-start">...</div>
+<div class="d-flex justify-content-end">...</div>
+<div class="d-flex justify-content-center">...</div>
+<div class="d-flex justify-content-between">...</div>
+<div class="d-flex justify-content-around">...</div>
+<hr>
+<div class="d-flex align-items-start">...</div>
+<div class="d-flex align-items-end">...</div>
+<div class="d-flex align-items-center">...</div>
+<div class="d-flex align-items-baseline">...</div>
+<div class="d-flex align-items-stretch">...</div>
+<hr>
+<div class="align-self-start">Aligned flex item</div>
+<div class="align-self-end">Aligned flex item</div>
+<div class="align-self-center">Aligned flex item</div>
+<div class="align-self-baseline">Aligned flex item</div>
+<div class="align-self-stretch">Aligned flex item</div>
+<hr>
+<div class="align-self-start">Aligned flex item</div>
+<div class="align-self-end">Aligned flex item</div>
+<div class="align-self-center">Aligned flex item</div>
+<div class="align-self-baseline">Aligned flex item</div>
+<div class="align-self-stretch">Aligned flex item</div>
+<hr>
+<div class="d-flex">
+  <div class="p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+</div>
+
+<div class="d-flex">
+  <div class="mr-auto p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+</div>
+
+<div class="d-flex">
+  <div class="p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+  <div class="ml-auto p-2">Flex item</div>
+</div>
+<hr>
+<div class="d-flex align-items-start flex-column" style="height: 200px;">
+  <div class="mb-auto p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+</div>
+
+<div class="d-flex align-items-end flex-column" style="height: 200px;">
+  <div class="p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+  <div class="mt-auto p-2">Flex item</div>
+</div>
+<hr>
+<div class="d-flex flex-nowrap">
+  
+</div>
+<hr>
+<div class="d-flex flex-wrap">
+  ...
+</div>
+<hr>
+<div class="d-flex flex-wrap-reverse">
+  ...
+</div>
+<hr>
+<div class="d-flex flex-nowrap">
+  <div class="order-3 p-2">First flex item</div>
+  <div class="order-2 p-2">Second flex item</div>
+  <div class="order-1 p-2">Third flex item</div>
+</div>
+<hr>
+<div class="d-flex align-content-start flex-wrap">
+  ...
+</div>
+<hr>
+<div class="d-flex align-content-end flex-wrap">...</div>
+<hr>
+<div class="d-flex align-content-center flex-wrap">...</div>
+<hr>
+<div class="d-flex align-content-around flex-wrap">...</div>
+<hr>
+<div class="d-flex align-content-stretch flex-wrap">...</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  </body>
+</html>
