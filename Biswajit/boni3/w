@@ -11,9 +11,17 @@
     <title>Hello, world!</title>
   </head>
   <body>
-  
-  
-   <!-- Optional JavaScript -->
+   <div class="w-25 p-3" style="background-color: #eee;"><p>Do you want to inspire your students to write great narratives, essays, and reports? Check out these grade-specific writing topics organized by mode (explanatory, creative, and so on). Or search for writing topics that relate to a theme, such as “life” or “animals” or “family.” ...
+You visited this page on 10/1/18.</p></div>
+    <div class="w-50 p-3" style="background-color: #eee;"><p>Do you want to inspire your students to write great narratives, essays, and reports? Check out these grade-specific writing topics organized by mode (explanatory, creative, and so on). Or search for writing topics that relate to a theme, such as “life” or “animals” or “family.” ...
+You visited this page on 10/1/18.</p></div>
+    <div class="w-75 p-3" style="background-color: #eee;"><p>Do you want to inspire your students to write great narratives, essays, and reports? Check out these grade-specific writing topics organized by mode (explanatory, creative, and so on). Or search for writing topics that relate to a theme, such as “life” or “animals” or “family.” ...
+You visited this page on 10/1/18.</p></div>
+    <div class="w-100 p-3" style="background-color: #eee;"><p>Do you want to inspire your students to write great narratives, essays, and reports? Check out these grade-specific writing topics organized by mode (explanatory, creative, and so on). Or search for writing topics that relate to a theme, such as “life” or “animals” or “family.” ...
+You visited this page on 10/1/18.</p></div>
+    <div class="w-150 p-3" style="background-color: #eee;"><p>Do you want to inspire your students to write great narratives, essays, and reports? Check out these grade-specific writing topics organized by mode (explanatory, creative, and so on). Or search for writing topics that relate to a theme, such as “life” or “animals” or “family.” ...
+You visited this page on 10/1/18.</p></div>
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
