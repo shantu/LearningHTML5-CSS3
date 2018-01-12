@@ -11,15 +11,14 @@
     <title>Hello, world!</title>
   </head>
   <body>
-  <div class="float-left"><button type="button" class="btn btn-primary">Primary</button></div><br>
-<div class="float-right"> h. 30 Prompts for a Persuasive Paragraph, Essay, or Speech.</div><br>
-<div class="float-none"><button type="button" class="btn btn-info">Info</button></div>
-  <div class="float-sm-left">Get 40 Topic Ideas for an Essay or Speech Developed With Examples. 30 Writing Suggestions for an Essay or Speech Developed With Analogies. Selecting a Topic for an Essay or Speech - Definitions and Examples. Practice in Organizing a Descriptive Paragraph. 30 Prompts for a Persuasive Paragraph, Essay, or Speech.</div><br>
+    <div class="float-left"><button type="button" class="btn btn-primary">Primary</button></div><br>
+<div class="float-right"><button type="button" class="btn btn-success">Success</button></div><br>
+<div class="float-none">Get 40 Topic Ideas for an Essay or Speech Developed With Examples. 30 Writing Suggestions for an Essay or Speech Developed With Analogies. Selecting a Topic for an Essay or Speech - Definitions and Examples. Practice in Organizing a Descriptive Paragraph. 30 Prompts for a Persuasive Paragraph, Essay, or Speech.</div>
+<div class="float-sm-left">Get 40 Topic Ideas for an Essay or Speech Developed With Examples. 30 Writing Suggestions for an Essay or Speech Developed With Analogies. Selecting a Topic for an Essay or Speech - Definitions and Examples. Practice in Organizing a Descriptive Paragraph. 30 Prompts for a Persuasive Paragraph, Essay, or Speech.</div><br>
 <div class="float-md-left">Get 40 Topic Ideas for an Essay or Speech Developed With Examples. 30 Writing Suggestions for an Essay or Speech Developed With Analogies. Selecting a Topic for an Essay or Speech - Definitions and Examples. Practice in Organizing a Descriptive Paragraph. 30 Prompts for a Persuasive Paragraph, Essay, or Speech.</div><br>
 <div class="float-lg-left">Get 40 Topic Ideas for an Essay or Speech Developed With Examples. 30 Writing Suggestions for an Essay or Speech Developed With Analogies. Selecting a Topic for an Essay or Speech - Definitions and Examples. Practice in Organizing a Descriptive Paragraph. 30 Prompts for a Persuasive Paragraph, Essay, or Speech.</div><br>
 <div class="float-xl-left">Get 40 Topic Ideas for an Essay or Speech Developed With Examples. 30 Writing Suggestions for an Essay or Speech Developed With Analogies. Selecting a Topic for an Essay or Speech - Definitions and Examples. Practice in Organizing a Descriptive Paragraph. 30 Prompts for a Persuasive Paragraph, Essay, or Speech.</div><br>
-  
-   <!-- Optional JavaScript -->
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
