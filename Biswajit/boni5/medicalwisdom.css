@@ -1,0 +1,10 @@
+#content {
+    padding: 0 50px 50px;
+    width:1000px;
+    height:800px;
+    background-color:#FFF;
+}
+
+.navbar-inner {
+    height: 300px;  
+}
