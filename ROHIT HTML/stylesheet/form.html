@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            adding something
+        </title>
+        <script>
+            function show() 
+            {
+                var a,b,c;
+                a = parseInt(document.getElementById("first").value);
+                b = parseInt(document.getElementById("second").value);
+                c = a + b;
+                document.getElementById("answer").innerText = c;
+            }
+        </script>
+    </head>
+    <body >
+        <fieldset style="height: 309 ; width: 300; margin: 20% 40%; padding-top: 27;padding-left: 150; box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);">
+        <header style="padding: 0 70 ;">
+            <a>Add</a>
+        </header>
+        <div>
+            <form>
+                <p>Enter first number</p>
+                <input  id="first" type="number" name="number" required />
+                <p> Enter second number</p>
+                <input  id="second" type="number" name="number" required /><br>
+                <br><button name="button" type="button" onclick="show()" style="padding: 0 80" >Add</button>
+                <p>result</p>
+                <span id="answer"></span>
+            </form>
+            </fieldset>
+        </div>
+    </body>
+</html>
