@@ -1,9 +1,11 @@
 .header
 {
-  position: absolute;
+  position: absolute ;
+  transform: translate(-50%, -50%);
+  top:50%;
+  left: 50%;
   font-size: 16px;
-  left: 40%;
-  top: 20%;
+  margin-right: -50%;
   width: 400;
   height: 550;
   box-shadow: 5px 5px 10px 2px rgba(0,0,0,.2);
@@ -49,7 +51,7 @@
 .hero
 {
   border-radius: 7px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   display: inline-block;
   font-weight: 200;
   letter-spacing: .5px;
@@ -60,7 +62,7 @@
 .hero-alt 
 {
   border: 1px solid rgba(182, 159, 159, 0.787);
-  padding: 10px 135px 10px 30px;
+  padding: 10px 92px 10px 30px;
 }
 #flex-container {
   display: flex;
