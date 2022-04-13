@@ -20,6 +20,7 @@ body{
   width: 370px;
   background-color: #fff;
   min-height: 400px;
+  box-shadow: 0px 1px 1px 0px .2 #000;
 }
 
 .container
@@ -72,11 +73,13 @@ body{
   font-family: 'Montserrat', sans-serif;
   color: rgb(163, 157, 157);
 }
-.topic h2{
-  margin-bottom: 0;
+.topic p{
+  margin-bottom: 0px;
 }
-.topic h5{
-  margin-top: 10px;
+.topic a{
+  margin-top: 5rem;
+  font-size: 12px;
+  font-weight: 500;
 }
 .imp{
   border: 1px solid rgb(163, 157, 157);
@@ -106,12 +109,13 @@ body{
   width: 330px;
   font-family: 'Montserrat', sans-serif;
 }
-.card h1{
+.card p{
   margin: 0;
-  padding: 10px 7px 0 7px;
+  padding: 10px 7px 3px 7px;
   font-size: 16px;
   text-align: center;
   color: rgb(163, 157, 157);
+  font-weight: 500;
 }
 .hr{
 margin: 0;
