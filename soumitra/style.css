@@ -26,14 +26,14 @@ body{
 .container
 {
   border-radius: 4px;
-  color: rgb(0, 0, 0);
+  color:  rgba(182, 159, 159, 0.787);
   display: inline-block;
   font-weight: 200;
   letter-spacing: .5px;
   padding-left: 10px;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 6px 10px 0px;
-  background: rgb(255, 255, 255);
+  background: #fff;
   border: 1px solid rgb(163, 157, 157);
   line-height: 30px;
   width:162px;
