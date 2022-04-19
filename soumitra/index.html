@@ -4,71 +4,86 @@
 <head>
   <title>medicalWISDOM</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+   <script>
+    function show(){
+      const val = document.getElementById("fname").value;
+      const val1= document.getElementById("lname").value;
+      const val2 = document.getElementById("birthday").value;
+      const val3 = document.getElementById("gender").value;
+      console.log(val,val1,val2,val3);
+      // return ;
+      let a= ("Name "+val+" "+val1+" Birthday "+val2+" Gender "+val3);
+      console.log(a);
+      document.getElementById("data").innerHTML=a;
+    }
+    function handleSubmit(event) {
+      function handleSubmit(event) 
+    }
+
+  </script> 
 </head>
 
 <body style="background-color:#ebebeb;">
-  <div class="card">
-    <p><b>medicalWISDOM</b></p>
-    <hr>
-    <div>
-      <div class="topic">
-        <p style="margin-top: 30px;"><b>About You</b></p>
-        <div style="margin-top: 7px; margin-bottom: 30px;">
-        <a>
-        <b> Why are you asking this? Learn more!</b>
-        </a>
+  <form action="#" method="post">
+    <div class="card">
+      <p><b>medicalWISDOM</b></p>
+      <hr>
+      <div>
+        <div class="topic">
+          <p style="margin-top: 30px;"><b>About You</b></p>
+          <div style="margin-top: 7px; margin-bottom: 30px;">
+          <a>
+          <b> Why are you asking this? Learn more!</b>
+          </a>
+          </div>
+        </div>
+        <div class="pic">
+          <div>
+            <label style="font-size: 12px;" >NAME</label><br>
+            <input class="container" type="text" placeholder="First name" id="fname" required>
+            <input class="container" type="text" placeholder="Last name" id="lname"required>
+          </div>
+  
+  
+          <div>
+            <label style="font-size: 12px;" >BIRTHDAY</label><br>
+            <select name="years" class="import" id="birthday">
+              <option value="years" required>Years</option>
+              <option value="1990" required>1990</option>
+              <option value="1995" required>1995</option>
+            </select>
+            <select name="month" class="hero">
+              <option value="month" required> Month</option>
+              <option value="january" required> january</option>
+              <option value="may" required> may</option>
+            </select>
+            <select name="days" class="import">
+              <option value="days" required> Date</option>
+              <option value="22" required> 22</option>
+              <option value="21" required> 21</option>
+            </select>
+          </div>
+  
+          <label style="color: rgba(182, 159, 159, 0.787); font-size: 12px;">Gender:</label> <br>
+          <select name="Gender" id="gender" class="imp">
+            <option value="choose" selected>Choose</option>
+            <option value="Male" required> Male</option>
+            <option value="Female" required> Female</option>
+          </select>
+          <div>
+            <button name="button" type="submit"   class="btn">Continue</button>
+          </div>
         </div>
       </div>
-      <div class="pic">
-        <div>
-          <label style="font-size: 12px;">NAME</label><br>
-          <input class="container" type="text" placeholder="First name" required>
-          <input class="container" type="text" placeholder="Last name" required>
-        </div>
-
-
-        <div>
-          <label style="font-size: 12px;">BIRTHDAY</label><br>
-          <select name="years" class="import">
-            <option value="years"> Years</option>
-            <option value="years"> 1990</option>
-            <option value="years"> 1995</option>
-          </select>
-          <select name="month" class="hero">
-            <option value="month"> Month</option>
-            <option value="january"> january</option>
-            <option value="may"> may</option>
-          </select>
-          <select name="days" class="import">
-            <option value="days"> Date</option>
-            <option value="22"> 22</option>
-            <option value="21"> 21</option>
-          </select>
-        </div>
-
-        <label style="color: rgba(182, 159, 159, 0.787); font-size: 12px;">Gender:</label> <br>
-        <select name="Gender" class="imp">
-          <option value="choose" selected>Choose</option>
-          <option value="Male"> Male</option>
-          <option value="Female"> Female</option>
-        </select>
-
-        <!-- form footer -->
-        <div>
-          <button type="submit"  class="btn">Continue</button>
-        </div>
-      </div>
+  
     </div>
-
-  </div>
-  <!-- <pre>
-
-      </pre> -->
-  </div>
+    <pre id="data"></pre>
+    </div>
+  </form>
+  
 
 </body>
-
 </html>
