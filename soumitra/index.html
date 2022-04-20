@@ -7,27 +7,35 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-   <script>
-    function show(){
-      const val = document.getElementById("fname").value;
-      const val1= document.getElementById("lname").value;
-      const val2 = document.getElementById("birthday").value;
-      const val3 = document.getElementById("gender").value;
-      console.log(val,val1,val2,val3);
-      // return ;
-      let a= ("Name "+val+" "+val1+" Birthday "+val2+" Gender "+val3);
-      console.log(a);
-      document.getElementById("data").innerHTML=a;
+   <script  type="text/javascript">
+    // function show(){
+    //   const val = document.getElementById("fname").value;
+    //   const val1= document.getElementById("lname").value;
+    //   const val2 = document.getElementById("birthday").value;
+    //   const val3 = document.getElementById("gender").value;
+    //   console.log(val,val1,val2,val3);
+    //   // return ;
+    //   let a= ("Name "+val+" "+val1+" Birthday "+val2+" Gender "+val3);
+    //   console.log(a);
+    //   document.getElementById("data").innerHTML=a;
+    // }
+    // function handleSubmit(event) {
+    //   function handleSubmit(event) 
+    // }
+    function getInputValue(){
+      var val = document.getElementById("medicalWisdomForm");
+      var formData = new FormData(val);
+      console.log("form data = ", JSON.stringify(Object.fromEntries(formData)));
+      document.getElementById("data").innerHTML = JSON.stringify(Object.fromEntries(formData), null, '\t');
+      return false;
     }
-    function handleSubmit(event) {
-      function handleSubmit(event) 
-    }
-
   </script> 
 </head>
 
 <body style="background-color:#ebebeb;">
-  <form action="#" method="post">
+
+  <pre id="data"></pre>
+  <form id="medicalWisdomForm">
     <div class="card">
       <p><b>medicalWISDOM</b></p>
       <hr>
@@ -43,8 +51,8 @@
         <div class="pic">
           <div>
             <label style="font-size: 12px;" >NAME</label><br>
-            <input class="container" type="text" placeholder="First name" id="fname" required>
-            <input class="container" type="text" placeholder="Last name" id="lname"required>
+            <input class="container" type="text" placeholder="First name"  name="firstname" id="fname" required>
+            <input class="container" type="text" placeholder="Last name" name="lastname" id="lname" required>
           </div>
   
   
@@ -55,12 +63,12 @@
               <option value="1990" required>1990</option>
               <option value="1995" required>1995</option>
             </select>
-            <select name="month" class="hero">
+            <select name="month" class="hero" >
               <option value="month" required> Month</option>
-              <option value="january" required> january</option>
+              <option value="january" required> January</option>
               <option value="may" required> may</option>
             </select>
-            <select name="days" class="import">
+            <select name="days" class="import" >
               <option value="days" required> Date</option>
               <option value="22" required> 22</option>
               <option value="21" required> 21</option>
@@ -74,16 +82,13 @@
             <option value="Female" required> Female</option>
           </select>
           <div>
-            <button name="button" type="submit"   class="btn">Continue</button>
+            <button name="button" type="submit" onclick="return getInputValue();" class="btn">Continue</button>
           </div>
         </div>
       </div>
   
     </div>
-    <pre id="data"></pre>
-    </div>
   </form>
-  
 
 </body>
 </html>
