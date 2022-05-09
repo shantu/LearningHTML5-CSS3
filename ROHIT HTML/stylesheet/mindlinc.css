@@ -1,0 +1,131 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 48px;
+  width:100%;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 5px #000;
+  border-radius: 5px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 4px 6px 0 0;
+  text-decoration: none;
+
+}
+  .logo 
+{
+  float: left;
+  font-size: 18px;
+  line-height: 50px;
+  padding: 4px 4px 20px 80px;
+}
+.tagline 
+{
+  margin: 10px 12px 10px 0px;
+  text-align: right;
+}
+.schedule
+{
+  
+  list-style-type: none;
+  margin: 90 0 0 80;
+  padding: 20 10 30 10;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 5px #000;
+  border-radius: 10px;
+  width: 46%;
+  height: 99%;
+  display: inline-block;
+}
+
+.task
+{
+  
+  list-style-type: none;
+  margin: 90 0 0 20;
+  padding: 20 10 30 10;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 5px #000;
+  border-radius: 10px;
+  width: 46%;
+  height: 49%;
+  display: inline-block;
+  
+  
+}
+.caseload
+{
+  
+  list-style-type: none;
+  margin: 28 0 0 20;
+  padding: 20 10 30 10;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 5px #000;
+  border-radius: 10px;
+  width: 46%;
+  height: 49%;
+  display: inline-block;
+  
+}
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 63%;
+}
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 48%;
+}
+*{
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+.wrapper .sidebar{
+  background: rgb(5, 30, 112);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 64px;
+  height: 100%;
+  padding: 20px 0;
+  transition: all 0.5s ease;
+}
+.solo
+{
+  float: right;
+  padding: 10px 20px 10px 20px;
+  margin: 0;
+}
+.cover{
+ 
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  color: rgb(39, 125, 206);
+}
